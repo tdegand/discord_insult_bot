@@ -1,0 +1,25 @@
+{
+  "name": "discord_insult_bot",
+  "version": "1.0.0",
+  "description": "Bot to hurl insults at discord users",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdegand/discord_insult_bot.git"
+  },
+  "author": "Tyler Degand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdegand/discord_insult_bot/issues"
+  },
+  "homepage": "https://github.com/tdegand/discord_insult_bot#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
