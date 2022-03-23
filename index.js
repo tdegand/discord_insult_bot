@@ -56,9 +56,7 @@ client.on("message", (msg) => {
 	if (msg.content === "ping") {
 		msg.reply("Pong!");
 	}
-	if (msg.content.includes("stinky")) {
-		msg.reply(`${user.toString()} is fucking stinky!`);
-	}
+    
     if(msg.content.includes("insult") && user != undefined ) {
         getRandomInsult().then(res => {
             msg.reply(`${user.toString()}: ${res}`)
